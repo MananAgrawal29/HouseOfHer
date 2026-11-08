@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 5,
+	"VersionName": "2.2.0",
+	"FriendlyName": "UnrealMCPython",
+	"Description": "",
+	"Category": "Other",
+	"CreatedBy": "GenOrca",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.6.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "UnrealMCPython",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PythonScriptPlugin",
+			"Enabled": true
+		}
+	]
+}

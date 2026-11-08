@@ -73,3 +73,31 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Unreal Engine generated files
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Plugin generated binaries
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
